@@ -31,7 +31,9 @@ class Calculator {
     }
 
     compute() {
-
+        let computation 
+        const prev = parseFloat(this.previousOperand)
+        const current = parseFloat(this.currentOperand)
     }
 
     updateDisplay(){
@@ -74,5 +76,3 @@ equalsButton.addEventListener('click', button => {
     calculator.compute()
     calculator.updateDisplay()
 })
-
-26.55
